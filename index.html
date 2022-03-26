@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -31,71 +35,113 @@
     <div class="container">
       <!-- Timeblocks go here -->
       <ul class="list-times">
-        <li class="list-group-item d-flex justify-content-center align-items-center">
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           9:00 AM
         </li>
-        <li class="list-group-item d-flex justify-content-center align-items-center">
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           10:00 AM
         </li>
-        <li class="list-group-item d-flex justify-content-center align-items-center">
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           11:00 AM
         </li>
-        <li class="list-group-item d-flex justify-content-center align-items-center">
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           12:00 PM
         </li>
-        <li class="list-group-item d-flex justify-content-center align-items-center">
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           1:00 PM
         </li>
-        <li class="list-group-item d-flex justify-content-center align-items-center">
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           2:00 PM
-        </li><li class="list-group-item d-flex justify-content-center align-items-center">
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           3:00 PM
-        </li><li class="list-group-item d-flex justify-content-center align-items-center">
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           4:00 PM
-        </li><li class="list-group-item d-flex justify-content-center align-items-center">
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-center align-items-center"
+        >
           5:00 PM
         </li>
       </ul>
 
       <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A list item
-          <button class="9Save">Save</button>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="nineTime" />
+          <button class="nineSave">Save</button>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A second list item
-          <button class="10Save">Save</button>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="tenTime" />
+          <button class="tenSave">Save</button>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="11Save">Save</button>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="elevenTime" />
+          <button class="elevenSave">Save</button>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="12Save">Save</button>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="noonTime" />
+          <button class="noonSave">Save</button>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="1Save">Save</button>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="oneTime" />
+          <button class="oneSave">Save</button>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="2Save">Save</button>
-        </li><li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="3Save">Save</button>
-        </li><li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="4Save">Save</button>
-        </li><li class="list-group-item d-flex justify-content-between align-items-center">
-          A third list item
-          <button class="5Save">Save</button>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="twoTime" />
+          <button class="twoSave">Save</button>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="threeTime" />
+          <button class="threeSave">Save</button>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="fourTime" />
+          <button class="fourSave">Save</button>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <input type="text" id="fiveTime" />
+          <button class="fiveSave">Save</button>
         </li>
       </ul>
-
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
