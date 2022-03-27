@@ -85,7 +85,7 @@ function dayAndTime () {
 
     currentDay.textContent = moment().format("MMMM Do YYYY, h:mm:ss"); 
 
-    setInterval(dayAndTime, 1000);
+    setTimeout(dayAndTime, 1000);
 }
 
 //adding hour values to each timeblock and checking if current time is before or after
