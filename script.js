@@ -92,9 +92,7 @@ function dayAndTime () {
 
 function timeCheck() {
 
-    // currentHour = moment().format("HH")
-    
-    currentHour = ("12");
+    currentHour = moment().format("HH")
     
     let nineTimestamp = ("09");
 
